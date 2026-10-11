@@ -1,0 +1,12 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Withings callback</title>
+<p>Copy this whole URL into the meal planner:</p>
+<textarea id="u" rows="4" style="width:100%" readonly></textarea>
+<script>
+  var u = document.getElementById('u');
+  u.value = location.href;
+  u.focus();
+  u.select();
+</script>
